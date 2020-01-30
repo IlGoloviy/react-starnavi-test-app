@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.all-game {
+    width: 100%;
+    height: 100vh;
+    border: 5px solid #eeeeee;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.block-game {
+    width: 60%;
+    height: 100%;
+    border-right: 3px solid #eeeeee;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+option[default] {
+    display: none;
+}
+
+.settings_name {
+    font-size: 20px;
+    padding: 15px 20px;
+    background-color: #f3f3f3;
+    border: none;
+    margin: 0 15px;
+    color: #95a3a8;
+}
+
+.settings_btn {
+    font-size: 20px;
+    text-transform: uppercase;
+    background-color: #7b8d93;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 40px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.settings_list {
+    font-size: 20px;
+    background-color: #cfd8dc;
+    border-radius: 5px;
+    border: none;
+    padding: 15px 20px;
+    color: #83949a;
+}
+
+.won {
+    margin: 50px 0 30px;
+    color: #909090;
+    font-size: 24px;
+}
+
+.game-field {
+    height: 450px;
+    width: 450px;
+    border: 1px solid #f1f1f2;   
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.game-btn-5,
+.game-btn-10,
+.game-btn-15 {
+    box-sizing: border-box;
+    border: 1px solid #f1f1f2;
+}
+
+.game-btn-5 {
+    width: 90px;
+    height: 90px;
+}
+
+.game-btn-10 {
+    width: 45px;
+    height: 45px;
+}
+
+.game-btn-15 {
+    width: 30px;
+    height: 30px;
+}
+
+.game-btn-active {
+    background-color: #42d8e8;
+}
+
+.game-btn-user {
+    background-color: #00e871;
+}
+
+.game-btn-computer {
+    background-color: #e85a5f;
+}
+
+.block-result {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.result-description {
+    color: #888888;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.result-block {
+    width: 80%;
+    height: 80%;
+}
+
+.result-scrol {
+    height: calc(100% - 42px);
+    overflow-y: auto;
+}
+
+.winner {
+    background-color: #cfd8dc;
+    margin-bottom: 3px;
+    color: #a0a9ac;
+    box-sizing: border-box;
+    padding: 15px 10px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+}
+
+.winner-name {
+    font-weight: 600;
+}

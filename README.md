@@ -1,6 +1,6 @@
 # test application on *React* for StarNavi
 
-### run the following commands to run:
+### run the following commands to run (запустіть наступні команди для початку):
 
 ```
 npm i
@@ -13,3 +13,11 @@ npm run start
 + when someone wins more than half the field, they become the winner
 + the **play** button changes to **play again** and when the game is finished clicking on it can start a new game
 + the **Leader Board** on the right in real time displays the winners
+
+### огляд додатку
+
++ виберіть режим гри (**game mode**) і введіть імя (**username**) та натисніть кнопку **play**
++ в ігровому полі зявляться точки і через певний час рандомно точка буде підсвічуватись *голубим* кольором, якщо юзер натиснув за цей час на точку вона стає *зеленого* кольору і йому зараховується очко, якщо ні то точка стає *червоного* кольору і очко зараховується компютеру
++ коли хтось завойовує більше половини поля то стає переможцем
++ кнопка **play** змінюється на **play again** і по завершенню гри натиснувши на її можна розпочати нову гру
++ **Leader Board** праворуч в реальному часі відображає переможців

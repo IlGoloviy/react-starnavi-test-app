@@ -1,4 +1,4 @@
-# point game on *React* for (StarNavi)[https://www.starnavi.io/]
+# point game on *React* for [StarNavi](https://www.starnavi.io/)
 
 ### run the following commands to run (запустіть наступні команди для початку):
 

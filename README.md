@@ -1,4 +1,4 @@
-# test application on *React* for StarNavi
+# point game on *React* for (StarNavi)[https://www.starnavi.io/]
 
 ### run the following commands to run (запустіть наступні команди для початку):
 
